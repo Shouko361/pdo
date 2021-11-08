@@ -1,0 +1,74 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+label,input{
+    display: block;
+    line-height: 25px;
+    height: 25px;
+    outline: none;
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+}
+
+form{
+    width: 330px;
+    background-color: gray;
+    padding: 20px;
+    margin: 40px auto;
+}
+
+input[type="submit"]{
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#cadastro{
+    width: 35%;
+    margin: 40px 0px;
+    height: 660px;
+    float: left;
+}
+
+#tabela{
+    width: 65%; 
+    margin: 40px 0px;
+    height: 660px;
+    float: left;
+}
+
+table{
+    color:white;
+    background-color: rgb(97, 94, 94);
+    width: 90%;
+    margin: 30px auto;
+}
+
+tr{
+    line-height: 30px;
+}
+
+tr#tiulo{
+    font-weight: bold;
+    color: white;
+}
+
+tr#dados{
+    color: white;
+}
+
+td{
+    padding: 0px 5px;
+}
+
+a{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    margin: 0px 5px;
+    text-decoration: none;
+}
